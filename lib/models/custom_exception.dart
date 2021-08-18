@@ -1,4 +1,6 @@
+import 'package:diiket_core/diiket_core.dart';
 import 'package:dio/dio.dart';
+import 'package:firebase_auth/firebase_auth.dart';
 
 class CustomException implements Exception {
   // message to be shown to user
@@ -79,6 +81,17 @@ class CustomException implements Exception {
       code: error.response?.statusCode ?? 0,
       reason: 'dio-error',
       stackTrace: error.stackTrace,
+    );
+  }
+
+  factory CustomException.fromFirebaseAuthException(
+    FirebaseAuthException error,
+  ) {
+    return CustomException(
+      message:
+          MessageHelper.getFirebaseAuthExceptionMessage('auth/${error.code}'),
+      stackTrace: error.stackTrace,
+      reason: 'auth/${error.code}',
     );
   }
 }
