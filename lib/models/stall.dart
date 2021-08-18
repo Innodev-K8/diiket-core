@@ -29,4 +29,10 @@ class Stall with _$Stall {
   }) = _Stall;
 
   factory Stall.fromJson(Map<String, dynamic> json) => _$StallFromJson(json);
+
+  factory Stall.fake() {
+    return const Stall(
+      is_open: true,
+    );
+  }
 }
