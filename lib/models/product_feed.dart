@@ -1,14 +1,9 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
+import 'enums/product_source_type.dart';
+
 part 'product_feed.freezed.dart';
 part 'product_feed.g.dart';
-
-enum ProductSourceType {
-  @JsonValue('category')
-  category,
-  @JsonValue('scenario')
-  scenario,
-}
 
 @freezed
 class ProductFeed with _$ProductFeed {
