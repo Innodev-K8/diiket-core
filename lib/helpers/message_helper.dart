@@ -2,6 +2,10 @@
 import 'package:diiket_core/diiket_core.dart';
 
 abstract class MessageHelper {
+  static String getOrderId(Order order) {
+    return '#${order.market_id.toString().padLeft(2, '0')}-${order.id.toString().padLeft(6, '0')}';
+  }
+
   static String getOrderStatusMessage(Order? order) {
     switch (order?.status) {
       case OrderStatus.unconfirmed:
