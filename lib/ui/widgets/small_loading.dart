@@ -4,7 +4,10 @@ import 'package:flutter/material.dart';
 class SmallLoading extends StatelessWidget {
   const SmallLoading({
     Key? key,
+     this.color = ColorPallete.primaryColor,
   }) : super(key: key);
+
+  final Color color;
 
   @override
   Widget build(BuildContext context) {
@@ -13,7 +16,7 @@ class SmallLoading extends StatelessWidget {
       height: 16,
       child: CircularProgressIndicator(
         strokeWidth: 3,
-        color: ColorPallete.primaryColor,
+        color: color,
       ),
     );
   }
