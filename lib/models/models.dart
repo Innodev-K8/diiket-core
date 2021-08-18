@@ -1,6 +1,7 @@
 export 'enums/order_item_payment_status.dart';
 export 'enums/order_item_status.dart';
 export 'enums/order_status.dart';
+export 'enums/product_source_type.dart';
 export 'enums/user_type.dart';
 
 export 'paginated/paginated_products.dart';
