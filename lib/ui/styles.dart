@@ -10,7 +10,7 @@ class ColorPallete {
   static const darkGray = Color(0xFF636773);
   static const lightGray = Color(0xFFb8b9ba);
   static const blueishGray = Color(0xFFF2F3F4);
-  static final backgroundColor = Colors.white;
+  static const backgroundColor = Colors.white;
 
   static const numberSpinnerColor = Color(0xFFFFB945);
 
@@ -22,7 +22,7 @@ class ColorPallete {
 
 final kTheme = ThemeData(
   primaryColor: ColorPallete.primaryColor,
-  accentColor: ColorPallete.secondaryColor,
+  // secondary: ColorPallete.secondaryColor,
   textTheme: kTextTheme,
 );
 
@@ -34,79 +34,79 @@ final BoxDecoration kBorderedDecoration = BoxDecoration(
 );
 
 final kTextTheme = TextTheme(
-  headline1: GoogleFonts.poppins(
+  displayLarge: GoogleFonts.poppins(
     fontSize: 32,
     fontWeight: FontWeight.w600,
     letterSpacing: -1.5,
     color: ColorPallete.textColor,
   ),
-  headline2: GoogleFonts.poppins(
+  displayMedium: GoogleFonts.poppins(
     fontSize: 18,
     fontWeight: FontWeight.w600,
     letterSpacing: 1,
     color: ColorPallete.textColor,
   ),
-  headline3: GoogleFonts.poppins(
+  displaySmall: GoogleFonts.poppins(
     fontSize: 20,
     fontWeight: FontWeight.w600,
     letterSpacing: 1,
     color: ColorPallete.textColor,
   ),
-  headline4: GoogleFonts.poppins(
+  headlineMedium: GoogleFonts.poppins(
     fontSize: 18,
     fontWeight: FontWeight.w600,
     letterSpacing: 1,
     color: ColorPallete.textColor,
   ),
-  headline5: GoogleFonts.poppins(
+  headlineSmall: GoogleFonts.poppins(
     fontSize: 16,
     fontWeight: FontWeight.w600,
     letterSpacing: 0.15,
     color: ColorPallete.textColor,
   ),
-  headline6: GoogleFonts.poppins(
+  titleLarge: GoogleFonts.poppins(
     fontSize: 14,
     fontWeight: FontWeight.w600,
     letterSpacing: 0.15,
     color: ColorPallete.textColor,
   ),
-  subtitle1: GoogleFonts.poppins(
+  titleMedium: GoogleFonts.poppins(
     fontSize: 15,
     fontWeight: FontWeight.w400,
     letterSpacing: 0.15,
     color: ColorPallete.textColor,
   ),
-  subtitle2: GoogleFonts.poppins(
+  titleSmall: GoogleFonts.poppins(
     fontSize: 13,
     fontWeight: FontWeight.w400,
     letterSpacing: 0.1,
     color: ColorPallete.textColor,
   ),
-  bodyText1: GoogleFonts.poppins(
+  bodyLarge: GoogleFonts.poppins(
     fontSize: 15,
     fontWeight: FontWeight.w400,
     letterSpacing: 0.5,
     color: ColorPallete.textColor,
   ),
-  bodyText2: GoogleFonts.poppins(
+  bodyMedium: GoogleFonts.poppins(
     fontSize: 13,
     fontWeight: FontWeight.w400,
     letterSpacing: 0.25,
     color: ColorPallete.textColor,
   ),
-  button: GoogleFonts.poppins(
+  labelLarge: GoogleFonts.poppins(
     fontSize: 13,
     fontWeight: FontWeight.w600,
     letterSpacing: 1.25,
     color: Colors.white,
   ),
-  caption: GoogleFonts.poppins(
+  bodySmall: GoogleFonts.poppins(
     fontSize: 12,
     fontWeight: FontWeight.w600,
     letterSpacing: 0.4,
     color: ColorPallete.lightGray,
   ),
-  overline: GoogleFonts.poppins(
+  labelSmall: GoogleFonts.poppins(
     fontSize: 10,
     fontWeight: FontWeight.w400,
     letterSpacing: 0.25,
