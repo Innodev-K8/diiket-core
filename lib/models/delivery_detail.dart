@@ -1,7 +1,7 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:google_maps_flutter/google_maps_flutter.dart';
 
-import 'directions.dart';
+import 'package:diiket_core/models/directions.dart';
 
 part 'delivery_detail.freezed.dart';
 

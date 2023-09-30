@@ -39,7 +39,7 @@ class PrimaryButton extends HookWidget {
       ),
       child: ElevatedButton(
         style: ElevatedButton.styleFrom(
-          primary: color ?? ColorPallete.primaryColor,
+          backgroundColor: color ?? ColorPallete.primaryColor,
           elevation: 0,
           shape: RoundedRectangleBorder(
             borderRadius: BorderRadius.circular(5.0),

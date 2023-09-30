@@ -1,8 +1,8 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import '../stall.dart';
-import '../pagination/pagination_links.dart';
-import '../pagination/pagination_meta.dart';
+import 'package:diiket_core/models/stall.dart';
+import 'package:diiket_core/models/pagination/pagination_links.dart';
+import 'package:diiket_core/models/pagination/pagination_meta.dart';
 
 part 'paginated_stalls.freezed.dart';
 part 'paginated_stalls.g.dart';

@@ -1,8 +1,8 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import 'enums/order_item_payment_status.dart';
-import 'enums/order_item_status.dart';
-import 'product.dart';
+import 'package:diiket_core/models/enums/order_item_payment_status.dart';
+import 'package:diiket_core/models/enums/order_item_status.dart';
+import 'package:diiket_core/models/product.dart';
 
 part 'order_item.freezed.dart';
 part 'order_item.g.dart';

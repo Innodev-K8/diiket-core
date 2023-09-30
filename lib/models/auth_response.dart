@@ -1,6 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import 'user.dart';
+import 'package:diiket_core/models/user.dart';
 
 part 'auth_response.freezed.dart';
 part 'auth_response.g.dart';

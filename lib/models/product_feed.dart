@@ -1,6 +1,6 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import 'enums/product_source_type.dart';
+import 'package:diiket_core/models/enums/product_source_type.dart';
 
 part 'product_feed.freezed.dart';
 part 'product_feed.g.dart';

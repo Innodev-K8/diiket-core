@@ -1,5 +1,4 @@
 import 'package:diiket_core/diiket_core.dart';
-import 'package:flutter/cupertino.dart';
 import 'package:flutter/material.dart';
 
 abstract class AlertHelper {
@@ -28,7 +27,7 @@ abstract class AlertHelper {
     // set up the buttons
     final Widget cancelButton = TextButton(
       style: TextButton.styleFrom(
-        primary: cancelColor,
+        foregroundColor: cancelColor,
       ),
       onPressed: () {
         Navigator.of(context).pop();
@@ -40,8 +39,7 @@ abstract class AlertHelper {
 
     final Widget continueButton = ElevatedButton(
       style: ElevatedButton.styleFrom(
-        elevation: 0,
-        primary: confirmColor,
+        elevation: 0, backgroundColor: confirmColor,
       ),
       onPressed: () {
         Navigator.of(context).pop();
@@ -55,7 +53,7 @@ abstract class AlertHelper {
     final AlertDialog alert = AlertDialog(
       title: Text(
         title,
-        style: kTextTheme.headline2!.copyWith(color: ColorPallete.textColor),
+        style: kTextTheme.displayMedium!.copyWith(color: ColorPallete.textColor),
       ),
       content: Text(description),
       actions: [

@@ -1,8 +1,8 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 import 'package:hive/hive.dart';
 
-import 'product_category.dart';
-import 'stall.dart';
+import 'package:diiket_core/models/product_category.dart';
+import 'package:diiket_core/models/stall.dart';
 
 part 'product.freezed.dart';
 part 'product.g.dart';

@@ -1,8 +1,6 @@
 import 'package:diiket_core/diiket_core.dart';
 import 'package:flutter/material.dart';
 
-import 'custom_text_form_field.dart';
-
 class CustomTextFieldSection extends StatelessWidget {
   const CustomTextFieldSection({
     Key? key,
@@ -32,7 +30,7 @@ class CustomTextFieldSection extends StatelessWidget {
       children: [
         Text(
           title,
-          style: kTextTheme.headline3!.copyWith(
+          style: kTextTheme.displaySmall!.copyWith(
             color: ColorPallete.accentColor,
           ),
         ),
@@ -52,9 +50,9 @@ class CustomTextFieldSection extends StatelessWidget {
           ),
           Text(
             helpText!,
-            style: kTextTheme.subtitle2!.copyWith(color: ColorPallete.darkGray),
+            style: kTextTheme.titleSmall!.copyWith(color: ColorPallete.darkGray),
           ),
-        ]
+        ],
       ],
     );
   }

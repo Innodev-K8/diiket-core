@@ -29,9 +29,9 @@ void main() {
     expect(user.address, 'Jl. Lawang Sewu');
     expect(user.phone_number, '+6285855884848');
     expect(user.stream_chat_token,
-        'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiNjQifQ.XBbOrMXlikBjdt5Zn3b1XS6_qpeO8ULthUm-dBJhnmc');
+        'eyJ0eXAiOiJKV1QiLCJhbGciOiJIUzI1NiJ9.eyJ1c2VyX2lkIjoiNjQifQ.XBbOrMXlikBjdt5Zn3b1XS6_qpeO8ULthUm-dBJhnmc',);
     expect(user.profile_picture_url,
-        'https://diiket.rejoin.id/images/placeholders/profile.jpg');
+        'https://diiket.rejoin.id/images/placeholders/profile.jpg',);
     expect(user.driver_detail, isNull);
     expect(user.stall, isNull);
   });

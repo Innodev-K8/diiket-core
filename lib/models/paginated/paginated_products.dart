@@ -1,8 +1,8 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import '../product.dart';
-import '../pagination/pagination_links.dart';
-import '../pagination/pagination_meta.dart';
+import 'package:diiket_core/models/product.dart';
+import 'package:diiket_core/models/pagination/pagination_links.dart';
+import 'package:diiket_core/models/pagination/pagination_meta.dart';
 
 part 'paginated_products.freezed.dart';
 part 'paginated_products.g.dart';

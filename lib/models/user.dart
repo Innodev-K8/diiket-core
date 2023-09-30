@@ -1,8 +1,8 @@
 import 'package:freezed_annotation/freezed_annotation.dart';
 
-import 'enums/user_type.dart';
-import 'stall.dart';
-import 'driver_detaill.dart';
+import 'package:diiket_core/models/enums/user_type.dart';
+import 'package:diiket_core/models/stall.dart';
+import 'package:diiket_core/models/driver_detaill.dart';
 
 part 'user.freezed.dart';
 part 'user.g.dart';

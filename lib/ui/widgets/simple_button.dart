@@ -20,9 +20,8 @@ class SimpleButton extends StatelessWidget {
       child: ElevatedButton(
         onPressed: onTap,
         style: ElevatedButton.styleFrom(
-          padding: const EdgeInsets.only(right: 8.0, left: 8.0),
+          padding: const EdgeInsets.only(right: 8.0, left: 8.0), backgroundColor: color,
           elevation: 0,
-          primary: color,
         ),
         child: child,
       ),
