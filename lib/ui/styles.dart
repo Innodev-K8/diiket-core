@@ -4,7 +4,7 @@ import 'package:google_fonts/google_fonts.dart';
 class ColorPallete {
   const ColorPallete._();
 
-  static const primaryColor = Color(0xFFFF8527);
+  static const primaryColor = Color(0xFFF562F0F);
   static const secondaryColor = Color(0xFF009EBA);
   static const accentColor = Color(0xFF003046);
   static const darkGray = Color(0xFF636773);
